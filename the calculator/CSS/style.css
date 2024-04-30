@@ -1,0 +1,61 @@
+.body {
+    /*backgroung picture */
+    background-image: url('assets/media/cal.jpg')
+}
+
+.inner {
+    /* style of the inner border */
+    text-align: center;
+    border-style: groove;
+    margin: auto;
+    width: 40%;
+    padding: 35px;
+    color: black;
+    border-width: 15px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    border: 10px solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+
+}
+
+.btn {
+    /*style of the buttons*/
+    padding: 10px;
+    background-color: white;
+    font-family: "digital-7";
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+#cal {
+    /*style of the input display */
+    border-radius: 20px;
+    border-color: black;
+    font-size: 16px;
+    font-family: "digital-7";
+    font-weight: bolder;
+    height: 35px;
+}
+
+#headtxt {
+    /*style of the h1 */
+    font-family: "Jersey10Charted-Regular";
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+/* define of two external fonts */
+@font-face {
+    font-family: "Jersey10Charted-Regular";
+    src: url("assets/fonts/Jersey10Charted-Regular.ttf")format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "digital-7";
+    src: url("assets/fonts/digital-7.ttf")format("truetype");
+}
